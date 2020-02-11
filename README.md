@@ -15,6 +15,10 @@ A simple project disigned to shorten long url to 3 characters long.
    * from url_shortener.models import Link
    * db.create_all(app=create_app())
 
-
-Just type the follewing command in the terminal in CWD.
-* flask run
+* To check that the database is setup properly
+   * sqlite3 url_shortener/db.sqlite3
+   * .tables
+   * .exit
+   
+* Finally run  the follewing command in the terminal in CWD.
+   * flask run
